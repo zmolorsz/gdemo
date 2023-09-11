@@ -1,4 +1,4 @@
-FROM gcr.io/deeplearning-platform-release/xgboost-cpu:m107
+FROM python:latest
 WORKDIR /
 # Copies the trainer code to the docker image.
 COPY trainer /trainer
