@@ -1,7 +1,5 @@
-FROM gcr.io/deeplearning-platform-release/tf-cpu.2-8:m95
+FROM gcr.io/deeplearning-platform-release/xgboost-cpu:m107
 WORKDIR /
-# Installs hypertune library
-RUN pip install cloudml-hypertune
 # Copies the trainer code to the docker image.
 COPY trainer /trainer
 # Sets up the entry point to invoke the trainer.
