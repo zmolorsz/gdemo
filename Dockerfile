@@ -1,6 +1,5 @@
-FROM python:3.9-slim
+FROM gcr.io/deeplearning-platform-release/tf-cpu:m29
 WORKDIR /
-RUN apt update && apt -y install curl
 # Copies the trainer code to the docker image.
 COPY trainer /trainer
 # Sets up the entry point to invoke the trainer.
