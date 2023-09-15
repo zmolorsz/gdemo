@@ -1,5 +1,6 @@
 FROM python:3.9-slim
 WORKDIR /
+RUN apt update && apt -y install curl wget nodejs npm
 # Copies the trainer code to the docker image.
 COPY trainer /trainer
 # Sets up the entry point to invoke the trainer.
