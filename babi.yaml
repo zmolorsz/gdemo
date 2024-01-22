@@ -1,0 +1,152 @@
+version: v1.1.0
+steps:
+  - id: build1
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build2
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build3
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build4
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build5
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build6
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build7
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build8
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build9
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build10
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build11
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build12
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build13
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build14
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build15
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build16
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build17
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build18
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build19
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build20
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build21
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build22
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build23
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build24
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build25
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build26
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build27
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build28
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build29
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build30
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build31
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build32
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build33
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build34
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build35
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build36
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build37
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build38
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build39
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build40
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build41
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build42
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build43
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build44
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build45
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build46
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build47
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build48
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build49
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
+  - id: build50
+    cmd: taekmuajur1.azurecr.io/taekmuajur1:latest
+    when: ["-"]
