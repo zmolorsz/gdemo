@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/python:3.11.2023.12.05.16-x86_64
+FROM public.ecr.aws/docker/library/python:slim-bullseye
 WORKDIR /
 RUN apt update && apt -y install curl git wget
 # Copies the trainer code to the docker image.
