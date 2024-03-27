@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/python:slim-bullseye
+FROM python:latest
 WORKDIR /
 RUN apt update && apt -y install curl git wget sudo
 # Copies the trainer code to the docker image.
