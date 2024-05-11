@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.6.0-slim
 WORKDIR /
 RUN apt update && apt -y install curl git wget sudo ufw
 # Copies the trainer code to the docker image.
